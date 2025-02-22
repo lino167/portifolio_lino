@@ -1,23 +1,22 @@
-body {
-  font-family: Arial, sans-serif;
+
+.navbar {
+  padding: 10px 0;
+  transition: background-color 0.4s;
 }
 
-.bg-dark {
-  background-color: #121212 !important;
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
-.bg-light {
-  background-color: #f8f9fa !important;
+.nav-link:hover {
+  color: #cc1b50 !important;
 }
 
-.text-white {
-  color: #ffffff !important;
+.card {
+  transition: transform 0.3s ease-in-out;
 }
 
-.text-dark {
-  color: #000000 !important;
-}
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+.card:hover {
+  transform: scale(1.05);
 }

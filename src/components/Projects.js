@@ -19,12 +19,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <Container id="projects" className="mt-5">
-      <h2 className="text-center">Projetos</h2>
+    <Container id="projects" className="mt-5 text-center">
+      <h2>Projetos</h2>
       <div className="d-flex flex-wrap justify-content-center">
         {projects.map((project, index) => (
-          <motion.div whileHover={{ scale: 1.05 }} key={index} className="m-3">
-            <Card style={{ width: "18rem" }}>
+          <motion.div key={index} whileHover={{ scale: 1.05 }} className="m-3">
+            <Card style={{ width: "18rem", borderRadius: "10px", boxShadow: "0px 4px 6px rgba(0,0,0,0.1)" }}>
               <Card.Img variant="top" src={project.image} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>

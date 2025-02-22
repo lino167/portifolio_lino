@@ -1,0 +1,32 @@
+.navbar-custom {
+  transition: background-color 0.4s;
+}
+
+.navbar-light-custom {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: black;
+}
+
+.navbar-dark-custom {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: white;
+}
+
+.nav-link-custom {
+  color: inherit !important;
+  display: flex; 
+  align-items: center; 
+}
+
+.nav-link-custom svg {
+  margin-right: 8px; 
+}
+
+.dark-mode-btn {
+  background: transparent;
+  border: none;
+  padding: 0; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+}
